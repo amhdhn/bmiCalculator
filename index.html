@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+
+<body>
+    <section class="content customScroll">
+        <div class="resultSection">
+            <p class="resultValue"></p>
+            <p class="resultInfo"></p>
+            <div class="resultImg"></div>
+        </div>
+        <div class="controllSection">
+            <p class="controllTitle">Height (cm) : <span class="heightSpan customSpan"></span></p>
+            <input type="range" class="customInput heightRange" min="80" max="220" value="175">
+            <p class="controllTitle">Weight (kg) : <span class="weightSpan customSpan"></span></p>
+            <input type="range" class="customInput weightRange" min="20" max="220" value="75">
+        </div>
+    </section>
+    <script src="script/index.js"></script>
+</body>
+
+</html>
